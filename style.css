@@ -1,0 +1,192 @@
+body{
+    background-color: #FFFFCC;
+}
+#content{
+    margin: auto;
+    text-align: left;
+    width: 600px;
+}
+fieldset {
+    border: 1px solid #00498e;
+    width: 440px;
+}
+
+fieldset.wrapper {
+    border: 0;
+    margin: 50px;
+}
+
+fieldset.wrapper legend {
+    color: #00498e;
+    font-weight: bold; 
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+fieldset.wrapper > legend {
+    /* not supported in ie. i only want a legend if it follows the class wrapper */
+    font-size: 2em; 
+}
+
+label {
+    color: #005cb3;
+    font-weight: bold;
+    font-size: .9em; 
+    display: block;
+}
+
+.required {
+    font-weight:bolder;
+    font-style:italic;
+}
+
+label.required:before {
+    content: "* ";
+}
+
+span.required:after {
+    color: #000;
+    content: " are in italics and marked with an *";
+}
+
+input {
+    display: block; 
+    border: 1px solid #00498e; 
+    width: 430px; 
+    margin-bottom: 10px;
+}
+
+input.hidden {
+    display: inline; 
+    border: 0; 
+    width: 0; 
+    margin-bottom: 0px;
+}
+
+label input {
+    display: inline;
+    border: 0;
+    width: auto;
+    margin: 0 5px 0 0;
+}
+
+input.button {
+    display: inline;
+    width: auto;
+    margin: 0 0 0 100px;
+    text-align:center;
+}
+
+form {
+    background : #ccccff; /* blue */
+    border : #0000CC double 4px;
+    width: 100%;
+}
+
+.mistake {
+    color: #fff;
+    background-color:#800;
+    border: thin solid #000;
+}
+
+#errors ol li{
+    color: #800;
+}
+
+
+/* Items used for displaying data in data.php */
+table{
+    margin-left: 3em;
+    border-collapse: collapse; 
+    border: solid thick #000;
+}
+
+th{
+    background-color: wheat;
+}
+
+td, th {
+    border: thin solid gray;
+    padding: 1em;
+}
+tr, th {
+    border: thin solid gray;
+    padding: 1em;
+}
+
+
+tr.odd{
+    background-color: #FFFFD5;
+}
+
+
+tr.even{
+    background-color: lightcyan;
+}
+
+tr:hover{
+    background-color: lightgray;
+}
+
+nav ol {
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-top-color: #000000;
+    border-bottom-color: #000000;
+    padding: 8px 0px;
+    }
+    
+  /*   padding-left: 5.33333333%;  /* 48px / 900px */
+  /*  padding-right: 3em;
+   border:solid;
+    border-color:#000000;
+} */
+nav ol li{
+    display: inline;
+    list-style-type: none;
+    border-left-style:solid;
+    border-right-style:solid;
+    padding-left:2em;
+    padding-right:2em;
+}
+
+#maintext {
+    width: 50%;
+    left: auto;
+    
+}
+#mainpicture {
+    right: auto;
+}
+
+   
+.photolist{
+    float:none;
+    width:95%;
+    margin:auto;
+    padding:0;
+    overflow: hidden;
+    
+}
+table,td {
+    border:1px solid black; 
+    text-align:center;
+}
+
+#main{
+    margin-left:2em;
+    margin-right:2em
+    
+}
+h2{
+    margin-left:4em;
+}
+
+header {
+    background-color:#ffffff;
+}
+homepic{
+    float:left;
+}
